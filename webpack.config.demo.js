@@ -16,6 +16,7 @@ module.exports = {
         port: 3000,
         overlay: true,
         open: true,
+        disableHostCheck: true,
     },
     plugins: [
         new CleanWebpackPlugin(),
